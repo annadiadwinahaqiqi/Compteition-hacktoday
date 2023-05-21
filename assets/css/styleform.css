@@ -6,16 +6,16 @@
 */
 /* font input*/
 @font-face{
-  font-family: "Retro Gaming";
-  src: url('../../font/Retro-Gaming.ttf') format('truetype');
-}
-@font-face{
-  font-family: "Alagard";
-  src: url('../../font/alagard.ttf') format('truetype');
+  font-family: "Aquino";
+  src: url('../../font/Aquino-Demo.ttf') format('truetype');
 }
 @font-face{
   font-family: "Quicksand";
   src: url('../../font/Quicksand.ttf') format('truetype');
+}
+@font-face{
+  font-family: "Fonseca";
+  src: url('../../font/Fonseca-Regular.otf') format('truetype');
 }
 /*--------------------------------------------------------------
 # General
@@ -39,12 +39,12 @@
     text-decoration: none;
   }
   
-  h1, h2, h3 {
-    font-family: "Retro Gaming", "Alagard";
+  h1, h2, h3{
+    font-family: "Aquino";
   }
   
   h4, h5, h6 {
-    font-family: "Retro Gaming", "Alagard";
+    font-family: "Aquino";
   }
   
   p{
@@ -844,6 +844,8 @@
   text-transform: uppercase;
   font-weight: 600;
   color: #262d53;
+  font-family: "Fonseca";
+  
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -858,6 +860,7 @@
   color: #262d53;
   position: relative;
   padding-bottom: 12px;
+  font-family: "Fonseca";
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;

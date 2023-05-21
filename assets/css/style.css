@@ -49,7 +49,7 @@ h1, h2, h3 {
 }
 
 h4, h5, h6 {
-  font-family: "Retro Gaming", "Aquino";
+  font-family: "Fonseca", "Aquino";
 }
 
 .form{
@@ -278,7 +278,7 @@ section {
   background: linear-gradient(180deg, rgb(128, 164, 225), transparent);
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: linear-gradient(#3573B1, #598DC1);
+  background: linear-gradient( #18B9E3, #169DC7);
 }
 #header .logo {
   font-size: 30px;
@@ -296,7 +296,7 @@ section {
   max-height: 40px;
 }
 .header-scrolled .navbar .getstarted{
-  background: linear-gradient(#598DC1, #3573B1);
+  background: linear-gradient(180deg, rgb(44, 115, 148), transparent);
 }
 
 /*--------------------------------------------------------------
@@ -510,6 +510,7 @@ section {
   height: 100vh;
   background: linear-gradient(#DCE8F4, #18B9E3);/*url(../img/hero-bg.png) top center no-repeat*/
   background-size: cover;
+  padding-left: 30px;
 }
 body{
   overflow-x:hidden;
@@ -520,6 +521,11 @@ body{
   height:60%;
   animation: mymove 15s infinite;
 }
+.hero .blobhero{
+  background: url("../gambar/sun.png") -20% 120% no-repeat, url("../gambar/buble3.png") 60% 30% no-repeat, url("../gambar/buble3.png") 100% 30% no-repeat;
+  background-size: 50%, 10%, 10%; 
+}
+
 @keyframes mymove {
   from {left: -100%;}
   to {left: 100%;}
@@ -531,7 +537,7 @@ body{
   margin: 0;
   font-size: 30px;
   font-weight: 700;
-  font-family: "Fonseca";
+  font-family: "Quicksand";
   color: #ffffff;
   text-shadow: 3px 2px #0f4892;
 }
@@ -548,6 +554,7 @@ body{
   color: #2f2a3a;
   font-weight: 600;
   font-size: 20px;
+  text-align: justify;
 }
 .hero .biayapendataran{
   font-size: 20px;
@@ -581,13 +588,13 @@ body{
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
-  font-family: 'Aquino', 'Retro Gaming', 'Quicksand';
+  font-family: 'Aquino', 'Quicksand';
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
 }
 .hero .btn-rule-book span {
-  font-family: 'Aquino', 'Retro Gaming', 'Quicksand';
+  font-family: 'Aquino', 'Quicksand';
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -662,9 +669,9 @@ body{
   .hero .pad_kiri{
     margin-left: 0;
   }
-  .blobhero{
-    background: url("../gambar/cloudx.png") 0% 8% no-repeat;
-    background-size: 40% 75%;
+  .hero .blobhero{
+    background: none;
+    background: url("../gambar/buble.png") 30% 50% no-repeat;
   }
 }
 
@@ -718,21 +725,21 @@ body{
 # Values
 --------------------------------------------------------------*/
 .values{
-  background: linear-gradient(#18B9E3,#19B0DE);/*url(../img/hero-bg.png) top center no-repeat*/
+  background: linear-gradient(#18B9E3,#007c92,#28bbe8, #0098C5,#0bbfdf, #19B0DE);/*url(../img/hero-bg.png) top center no-repeat*/
   background-size: cover;
 }
 
 
 
 .values .blobvalue{
-  background: url("../gambar/kura.png") 50% -5% no-repeat, url("../gambar/Ubur2.png") 85% 35% no-repeat, url("../gambar/Fish.png") 2% 50% no-repeat;; 
-  background-size: 40% 25%, 10% 10%, 20% 20%;
+  background: url("../gambar/kura.png") 50% 0% no-repeat, url("../gambar/Ubur2.png") 85% 65% no-repeat,  url("../gambar/buble2.png") 40% 30% no-repeat, url("../gambar/plant10.png") -10% 70% no-repeat, url("../gambar/maru.png") 70% 47% no-repeat, url("../gambar/maru2.png") 45% 70% no-repeat, url("../gambar/maru4.png") 29% 90% no-repeat, url("../gambar/buble4.png") 10% 50% no-repeat, url("../gambar/fish2.png") 10% 90% no-repeat ;
+  background-size: 50% , 10%, 30%, 20%, 10%, 10%, 10%, 5%, 15%; 
 }
 
 
 
 .values .box {
-  padding: 60px;
+  padding: 90px;
   padding-top: 80px !important;
   text-align: center;
   transition: 0.3s;
@@ -757,7 +764,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../gambar/Dirt_md.png") !important;
-  background-size: 430px;
+  background-size: 450px;
 }
 .values .box_2{
   padding: 15% ;
@@ -856,10 +863,10 @@ body{
 }
 .values .box_2 h3 {
   font-size: 40px;
-  color: #037091;
+  color: #ffffff;
   font-weight: 900;
   font-family: "Quicksand";
-  text-shadow: 3px 2px #0A7D9B;
+  text-shadow: 3px 2px ##0f4892;
 }
 .values .box_2 p{
   font-size: 30px;
@@ -867,7 +874,7 @@ body{
   font-family: "Quicksand";
 }
 .values .box p{
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Quicksand";
   color: #ffffff;
 }
@@ -931,8 +938,9 @@ body{
     text-shadow: 2px 1px #784F56;
   }
   .blobvalue{
-    background: url("../gambar/satelit\ 1.png") 0% 0% no-repeat, url("../gambar/roketmiring.png") 100% 60% no-repeat, url("../gambar/Tebing.png") 0% 100% no-repeat;; 
-    background-size: 20% 9%, 23% 20%, 100% 50%;
+    
+    background: url("../gambar/kura.png") 0% 0% no-repeat, url("../gambar/roketmiring.png") 100% 60% no-repeat, url("../gambar/Tebing.png") 0% 100% no-repeat; 
+    background-size: 20% 9%, 23% 20%, 100% 50%, 50%;
   }
 }
 
@@ -940,7 +948,11 @@ body{
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background:linear-gradient(#19B0DE, #169DC7);
+  background:linear-gradient(#19B0DE,#24D1FE, #169DC7);
+}
+.clients .blobclients{
+  background: url("../gambar/fish.png") 90% 0% no-repeat; 
+  background-size: 15%;
 }
 .clients .clients-slider .swiper-slide img {
   opacity: 0.5;
@@ -985,21 +997,14 @@ body{
   font-size: 14px;
   background: #0C738E;
 }
-.plant3 {
-  bottom: 0%;
-  left: -3%;
-  position: relative;
-  top: 10px;
-}
-
 
   
 #footer .footer-top {
-  padding: 0px 20px 30px 20px;
-  background-image: url("../gambar/Plant.png"), url("../gambar/pasir.png");
-  background-position: 100% 100%, 10% 100%;
+  padding: 300px 20px 30px 0px;
+  background-image:  url("../gambar/anchor.png"),url("../gambar/Plant9.png"),url("../gambar/buble.png"),url("../gambar/plant7.png"), url("../gambar/Plant6.png"), url("../gambar/pasir.png"),url("../gambar/plant9.2.png"), url("../gambar/plant5.3.png"), url("../gambar/plant5.4.png");
+  background-position: 80% 40%, 65% 100%, 10% 20%, 45% 120%, -15% 110%, 10% 110%, 0% 20%, 5% 30%, 80% 20%;
   background-repeat: no-repeat;
-  background-size: 10%, 100%;
+  background-size: 10%, 10%, 8%, 20%, 20%, 100%,10%, 50%, 50%;
   background-color: #169DC7;
 }
 #footer .footer-top .footer-contact {
@@ -1095,6 +1100,13 @@ body{
   transition: 0.3s;
 }
 @media (max-width: 768px) {
+  #footer .footer-top{
+    background: none;
+    background:url("../gambar/buble.png") 40% 70%, url("../gambar/ship.png") 80% 60%, url("../gambar/plant7.png") 170% 105%, url("../gambar/Plant9.png") 90% 100% , url("../gambar/pasir.png") 10% 100%, url("../gambar/plant5.3.png") 70% 80%, url("../gambar/plant9.2.png") 100% 80%;
+    background-repeat: no-repeat;
+    background-size: 10%, 50%, 50%, 20%, 100% 25%, 70%, 10%;
+    background-color: #169DC7;
+  }
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1111,7 +1123,7 @@ body{
 /*Timeline*/
 .swiper-container-wrapper--timeline .swiper-slide {
   display: flex;
-  background: #784F56;
+  background-color: rgba(120, 79, 86, 0.9);
   min-height: 300px;
   align-items: center;
   justify-content: center;
