@@ -1123,13 +1123,13 @@ body{
 /*Timeline*/
 .swiper-container-wrapper--timeline .swiper-slide {
   display: flex;
-  background-color: rgba(120, 79, 86, 0.9);
+  background-color: rgba(171, 228, 246, 0.2);
   min-height: 300px;
   align-items: center;
   justify-content: center;
   border-style: dashed;
   border-width: 10px;
-  border-color: #7AB229;
+  border-color: #84C3D7;
   border-radius: 10px;
 }
 .swiper-container-wrapper--timeline .swiper-slide .container {
@@ -1156,7 +1156,7 @@ body{
   width: 75%;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-progressbar-fill {
-  background-color: #7AB229;
+  background-color: #84C3D7;
  
   
   height: 3px;
@@ -1170,7 +1170,7 @@ body{
   height: 3px;
   
   border-width: 2px;
-  background-color: #7AB229;
+  background-color: #84C3D7;
   content: "";
 }
 .swiper-container-wrapper--timeline .swiper-pagination-progressbar:after {
@@ -1221,7 +1221,7 @@ body{
   transform: translateX(50%) translateY(-50%);
   width: 10px;
   height: 10px;
-  background: #7AB229;
+  background: #84C3D7;
 
   content: "";
   transition: 0.2s all ease-in-out;
@@ -1234,7 +1234,7 @@ body{
   transition-delay: 0.4s;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title:after {
-  background: #7AB229;
+  background: #84C3D7;
   width: 18px;
   height: 18px;
   transition-delay: 0.4s;
