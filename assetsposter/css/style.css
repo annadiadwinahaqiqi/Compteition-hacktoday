@@ -898,7 +898,7 @@ section {
   }
   .blobvalue{
     background: url("../gambar/selam.png") 50% 80% no-repeat, url("../gambar/selam2.png") 0% 10% no-repeat, url("../gambar/item2.png") 50% 50% no-repeat !important; 
-    background-size: 70%, 45% 15%, 60% !important;
+    background-size: 50%, 45% 15%, 60% !important;
   }
 }
 
